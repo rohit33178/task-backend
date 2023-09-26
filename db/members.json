@@ -1,0 +1,43 @@
+[
+    {
+        "name":"Rohit Kumar Singh",
+        "team":"backend",
+        "priority":"developer"
+    },
+    {
+        "name":"keshav priyadarshi",
+        "team":"backend",
+        "priority":"developer"
+    },
+    {
+        "name":"Roushan Kumar Godda",
+        "team":"frontend",
+        "priority":"designer"
+    },
+    {
+        "name":"Saurav Kumar",
+        "team":"frontend",
+        "priority":"designer"
+    },
+    {
+        "name":"Amit kumar",
+        "team":"front",
+        "priority":"designer"
+    }, 
+    {
+        "name":"Debasis Pattnayak",
+        "team":"backend",
+        "priority":"developer"
+    }, 
+    {
+        "name":"Amisha Aggarwal",
+        "team":"frontend",
+        "priority":"designer"
+    }, 
+    {
+        "name":"Ashutosh Kumar",
+        "team":"frontend",
+        "priority":"designer"
+    }
+    
+]
