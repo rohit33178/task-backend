@@ -21,7 +21,7 @@ mongoose.connect(MONGO_URI, {
 
 
 // API END POINT
-app.get("/", (req, res) => {
+app.get("/api/", (req, res) => {
     res.json({
         status: 200, 
         message: "OK"
@@ -29,11 +29,11 @@ app.get("/", (req, res) => {
 }); 
 
 
-app.post("/create-task", async (req, res) => {
+app.post("/api/create-task", async (req, res) => {
     let response = await creatTask(req, res)
     res.json(response);
 });
-app.get("/all-tasks", async (req, res) => {
+app.get("/api/all-tasks", async (req, res) => {
     let response = await getTasks(req, res)
     res.json(response);
 });
