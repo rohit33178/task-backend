@@ -18,10 +18,7 @@ mongoose.connect(MONGO_URI, {
     useUnifiedTopology: true
 }).then( () => console.log(`MOngoDB Connected`)).catch(err => console.log(`DB Connecteion Error`));
 
-// start application
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-})
+
 
 // API END POINT
 app.get("/", (req, res) => {
@@ -40,5 +37,10 @@ app.get("/all-tasks", async (req, res) => {
     let response = await getTasks(req, res)
     res.json(response);
 });
+
+// start application
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+})
 
 module.exports = app
