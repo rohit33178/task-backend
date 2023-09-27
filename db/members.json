@@ -1,43 +1,22 @@
 [
     {
-        "name":"Rohit Kumar Singh",
-        "team":"backend",
-        "priority":"developer"
+        "name":"Aniket",
+        "team":"frontend",
+        "priority": 1
     },
     {
-        "name":"keshav priyadarshi",
-        "team":"backend",
-        "priority":"developer"
+        "name":"kailash",
+        "team":"frontend",
+        "priority":3
     },
     {
-        "name":"Roushan Kumar Godda",
+        "name":"Rajnish",
         "team":"frontend",
-        "priority":"designer"
+        "priority": 2
     },
     {
-        "name":"Saurav Kumar",
+        "name":"Suresh",
         "team":"frontend",
-        "priority":"designer"
-    },
-    {
-        "name":"Amit kumar",
-        "team":"front",
-        "priority":"designer"
-    }, 
-    {
-        "name":"Debasis Pattnayak",
-        "team":"backend",
-        "priority":"developer"
-    }, 
-    {
-        "name":"Amisha Aggarwal",
-        "team":"frontend",
-        "priority":"designer"
-    }, 
-    {
-        "name":"Ashutosh Kumar",
-        "team":"frontend",
-        "priority":"designer"
+        "priority": 1
     }
-    
 ]
